@@ -1,0 +1,11 @@
+@define-color background-color #1F0B0B;
+@define-color border-color #7B534E;
+@define-color label #D9AFA7;
+@define-color image #D9AFA7;
+@define-color progress #FF6B4A;
+
+.osd,
+#osd,
+osd {
+  border-radius: 6px;
+}

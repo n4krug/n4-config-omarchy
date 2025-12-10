@@ -1,0 +1,12 @@
+@define-color selected-text #FF6B4A; /* Highlight color */
+@define-color text #D9AFA7; /* Main text color */
+@define-color base #0F0B0B; /* Main background */
+@define-color border #C45A3F; /* Inactive/disabled text */
+@define-color foreground #D9AFA7; /* Main text color */
+@define-color background #2F1B1B; /* Main background */
+
+#window, #window > #box, #box {
+  /* background: transparent; */
+  background: alpha(@base, 0.65);
+  border-radius: 6px;
+}
